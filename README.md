@@ -1,6 +1,6 @@
-# <img src="files/img/docker_laravel.png" height="48" alt="docker laravel" /> Dockerize Laravel App
+# Laravel Broadcasting
 
-Simple steps to Dockerize your **Laravel** app
+Simple steps to Broadcasting your **Laravel** app
 
 **Laravel php Docker nginx MySQL phpmyadmin**
 
@@ -23,11 +23,11 @@ Simple steps to Dockerize your **Laravel** app
 #### Installation:
 
 >First clone this repository for command:<br/>
-<code>$ git clone https://github.com/JoneCoder/dockerize-laravel.git</code>
+<code>$ git clone https://github.com/JoneCoder/dockerize-broadcasting.git</code>
 
 
 >Second change the directory this command:<br/>
-<code>$ cd dockerize-laravel/</code>
+<code>$ cd dockerize-broadcasting/</code>
 
 >Make mysql directory this command:<br/>
 <code>$ mkdir mysql</code>
@@ -38,7 +38,7 @@ Simple steps to Dockerize your **Laravel** app
 >Now change the directory this command:<br/>
 <code>$ cd src/</code>
 
->Than copy the .env.example file to .env flowing command:<br/>
+>Then copy the .env.example file to .env flowing command:<br/>
 <code>$ cp .env.example .env</code>
 
 >Now update composer for install laravel vendor:<br/>
@@ -55,7 +55,7 @@ Simple steps to Dockerize your **Laravel** app
 <code>$ docker-compose run --rm npm install && npm run dev</code>
 
 
->If you done all stuffs than open your favorite browser hit localhost port 8082:<br/>
+>If you're done all stuffs than open your favorite browser hit localhost port 8080:<br/>
 <code>http://localhost:8080</code>
 
 >Enjoy this service.
